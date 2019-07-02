@@ -1,0 +1,17 @@
+{
+	"disableAutoUpdate": false,
+	"name": "TerableServant",
+	"author": "TerableCoder",
+	"description": "Spawns servant upon entering a dungeon",
+	"version": "7/2/2019",
+	"options": {
+		"niceName": "TerableServant",
+		"settingsVersion": 1,
+		"settingsFile": "config.json",
+		"settingsMigrator": "settings_migrator.js"
+	},
+	"servers": [
+		"https://raw.githubusercontent.com/TerableCoder/TerableServant/master/"
+	],
+	"supportUrl": "https://github.com/TerableCoder/TerableServant/issues"
+}
