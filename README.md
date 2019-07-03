@@ -8,5 +8,5 @@ Get the Opcodes from https://github.com/TerableCoder/TerableOpcodes
 ## Usage
 ### `teras` 
 - Toggles module on/of
-### `terao save` 
+### `teras save` 
 - Sets the default servant for that character
