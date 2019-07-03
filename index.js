@@ -34,7 +34,7 @@ module.exports = function TerableServant(mod) {
 	mod.hook('C_VISIT_NEW_SECTION', 1, (event) => {
 		if(mod.game.me.inDungeon && mod.settings.enabled && mod.game.me.alive){
 			const myServant = mod.settings.defaultServants[`${mod.game.me.serverId}_${mod.game.me.playerId}`];
-			if(myServant && (!petInfo || Number(myServant.dbid) != petInfo.dbid)){ // no servant spawned or wrong servant
+			if(myServant && (!petInfo || Number(myServant.uniqueId) != petInfo.dbid)){ // no servant spawned or wrong servant
 				mod.send('C_REQUEST_SPAWN_SERVANT', 1, {
 					"servantId": Number(myServant.servantId),
 					"uniqueId": Number(myServant.uniqueId),
