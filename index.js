@@ -19,7 +19,7 @@ module.exports = function TerableServant(mod) {
     	}
 	});
 
-	mod.hook('S_REQUEST_SPAWN_SERVANT', 1, (event) => {
+	mod.hook('S_REQUEST_SPAWN_SERVANT', 3, (event) => {
 		if(mod.game.me.is(event.ownerId)){
 			petInfo = event;
 		}

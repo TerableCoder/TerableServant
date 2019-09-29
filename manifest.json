@@ -1,13 +1,13 @@
 {
 	"files": {
-		"index.js": "60154856a39b4a9e5ef57ea6a2d77105e442496b43a400709001f92fae017a6d",
+		"index.js": "26f4bf6e2f0a521306a7b57fbbd9fa9e52d8a8085e17e97476dddeab4d0a612c",
 		"module.json": "cdb8a90fa54d035ab302e678a39857eb176482fcbd451afb6ca78911c32c3a59",
 		"README.md": "9ebd2b77f61dfa0bf871728a0f60f402d42a3733d1ef9a8f9793367e5db688d7",
 		"settings_migrator.js": "adf397ca15a8c00a46731a8dcc7e9123d1cc23f921d24f350a4f56be710efe5b",
 		"protocol/C_REQUEST_SPAWN_SERVANT.1.def": "bf34f8f2287f84ad6f67245f31da6934397d81f03db9c8878e4d3ead89a6c83e"
 	},
 	"defs": {
-		"S_REQUEST_SPAWN_SERVANT": 1,
+		"S_REQUEST_SPAWN_SERVANT": 3,
 		"S_REQUEST_DESPAWN_SERVANT": 1,
 		"C_VISIT_NEW_SECTION": 1,
 		"C_REQUEST_SPAWN_SERVANT": 1
